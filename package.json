@@ -1,0 +1,29 @@
+{
+  "name": "proj_malit",
+  "version": "1.0.0",
+  "description": "projeto para cadastro de medicamentos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannsaraiva/Proj_PWII_ETEC.git"
+  },
+  "keywords": [
+    "Projeto",
+    "API",
+    "Remedio",
+    "Medicamento",
+    "Cadastro"
+  ],
+  "author": "dannsaraiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannsaraiva/Proj_PWII_ETEC/issues"
+  },
+  "homepage": "https://github.com/dannsaraiva/Proj_PWII_ETEC#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
