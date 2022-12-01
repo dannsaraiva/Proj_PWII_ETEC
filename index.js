@@ -2,7 +2,7 @@
 const express = require('express');
 
 //IMPORTAÇÃO DO ARQUIVO PARA CONEXÃO COM A ROTA.
-// const routeMedicamento = require('');
+const routeMedicamento = require('./routes/routeMedicamento');
 
 //SCRIPT PARA RODAR O PROJETO.
 const malit = express();
