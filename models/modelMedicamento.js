@@ -8,7 +8,7 @@ const connection = require('../database/database');
 const modelMedicamento = connection.define(
     'tbl_remedio',
     {
-        id_remedio: {
+        id_medicamento: {
             type: Sequelize.INTEGER,
             primaryKey: true,
             autoIncrement: true
@@ -16,6 +16,27 @@ const modelMedicamento = connection.define(
         nome_medicamento: {
             type: Sequelize.STRING(100),
             allowNull: false
+        }
+        ,
+        descricao_medicamento: {
+            type: Sequelize.STRING(100),
+            allowNull: true
+        },
+        validade_medicamento: {
+            type: Sequelize.DATEONLY,
+            allowNull: true
+        },
+        horario_medicamento: {
+            type: Sequelize.TIME,
+            allowNull: true
+        },
+        duracao_medicamento: {
+            type: Sequelize.FLOAT,
+            allowNull: true
+        },
+        quant_medicamento: {
+            type: Sequelize.FLOAT,
+            allowNull: true
         }
     }
 );
